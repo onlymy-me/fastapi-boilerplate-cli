@@ -1,6 +1,4 @@
-Here is a polished, professional `README.md` optimized for your GitHub repository and PyPI description. I have structured it to highlight the "Zero Dependency" feature and fully embraced `uv` as the primary workflow tool as requested.
 
-````markdown
 # FastAPI Boilerplate CLI
 
 <div align="center">
