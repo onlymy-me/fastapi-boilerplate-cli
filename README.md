@@ -2,6 +2,8 @@
 
 ⚡ A simple CLI tool to generate FastAPI project boilerplates with best practices.
 
+[![PyPI version](https://badge.fury.io/py/fastapi-boiler-cli.svg)](https://pypi.org/project/fastapi-boilerplate-cli/)
+
 ## Installation
 
 ```bash
