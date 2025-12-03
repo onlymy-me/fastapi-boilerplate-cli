@@ -17,6 +17,10 @@ classifiers = [
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: ^3.13",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
 ]
 
 # No external dependencies needed! Uses only Python standard library
@@ -28,6 +32,7 @@ fastapi-boilerplate = "fastapi_boilerplate_cli.cli:main"
 [project.urls]
 Homepage = "https://github.com/onlymy-me/fastapi-boilerplate-cli"
 Repository = "https://github.com/onlymy-me/fastapi-boilerplate-cli.git"
+Issues = "https://github.com/onlymy-me/fastapi_boilerplate_cli"
 
 [build-system]
 requires = ["hatchling"]
