@@ -8,6 +8,9 @@ import os
 from pathlib import Path
 
 
+
+
+
 # Template files content
 MAIN_PY = '''from fastapi import FastAPI
 from app.routers import health
@@ -187,7 +190,7 @@ Thumbs.db
 def create_file(filepath: Path, content: str):
     """Create a file with the given content"""
     filepath.parent.mkdir(parents=True, exist_ok=True)
-    filepath.write_text(content)
+    filepath.write_text(content, encoding="utf-8")
     print(f"✅ Created: {filepath}")
 
 

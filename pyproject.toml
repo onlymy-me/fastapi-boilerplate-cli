@@ -5,7 +5,7 @@ description = "A CLI tool to generate FastAPI project boilerplates"
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [
-    { name = "Your Name", email = "your.email@example.com" }
+    { name = "Brian Obara", email = "mrobaraabuga@gmail.com" }
 ]
 keywords = ["fastapi", "cli", "boilerplate", "generator", "scaffold"]
 classifiers = [
@@ -26,8 +26,8 @@ dependencies = []
 fastapi-boilerplate = "fastapi_boilerplate_cli.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/fastapi-boilerplate-cli"
-Repository = "https://github.com/yourusername/fastapi-boilerplate-cli"
+Homepage = "https://github.com/onlymy-me/fastapi-boilerplate-cli"
+Repository = "https://github.com/onlymy-me/fastapi-boilerplate-cli.git"
 
 [build-system]
 requires = ["hatchling"]
