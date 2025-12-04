@@ -1,6 +1,6 @@
 [project]
 name = "fastapi-boilerplate-cli"
-version = "0.1.0"
+version = "0.1.1"
 description = "A CLI tool to generate FastAPI project boilerplates"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -18,7 +18,7 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
-    "Programming Language :: Python :: ^3.13",
+    "Programming Language :: Python :: 3.13",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
